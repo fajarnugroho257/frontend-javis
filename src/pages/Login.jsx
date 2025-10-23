@@ -84,7 +84,7 @@ function Login(){
                         <div className="relative mt-5 mb-2">
                             <InputPassword
                                 placeholder="Password"
-                                required={true}
+                                required={false}
                                 value={password}
                                 onchange={
                                     (val) => {
